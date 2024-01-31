@@ -36,11 +36,11 @@ export class ProductoComponent implements OnInit, AfterViewInit {
         if (resp.status) {
           this.dataListaProducto.data = resp.value;
         } else {
-          this._utilidadServicio.mensajeWarning("No hay datos registrados", "Advertencia");
+          this._utilidadServicio.mensajeWarning("No hay datos registrados.", "Advertencia");
         }
       },
       error: () => {
-        this._utilidadServicio.mensajeError("Hubo un problema con el Servidor", "Error");
+        this._utilidadServicio.mensajeError("Hubo un problema con el Servidor.", "Error");
       }
     });
   }
