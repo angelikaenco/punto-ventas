@@ -141,7 +141,7 @@ export class VentaComponent implements OnInit {
           this.bloquearBotonRegistrar = false;
         },
         error: () => {
-          this._utilidadServicio.mensajeError("Hubo un problema con el servidor", "Error");
+          this._utilidadServicio.mensajeError("Hubo un problema con el servidor", "Chama");
         }
       });
     }
