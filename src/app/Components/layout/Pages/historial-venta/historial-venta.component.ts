@@ -76,6 +76,7 @@ export class HistorialVentaComponent implements OnInit, AfterViewInit {
   aplicarFiltroTabla(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataListaVenta.filter = filterValue.trim().toLowerCase();
+
   }
 
   buscarVentas() {

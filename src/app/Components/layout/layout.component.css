@@ -1,0 +1,16 @@
+.alu {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .alu:hover {
+    transform: scale(1.1); 
+  }
+  
+  
+  .alu:hover mat-icon {
+    color: #a10684; 
+  }
+  
+  .alu:hover div {
+    font-weight: bold; 
+  }

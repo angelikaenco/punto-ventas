@@ -26,7 +26,7 @@ const routes: Routes = [
         path: "venta", component: VentaComponent
       },
       {
-        path: "historial-venta", component: HistorialVentaComponent
+        path: "historial_venta", component: HistorialVentaComponent
       },
       {
         path: "reportes", component: ReporteComponent
